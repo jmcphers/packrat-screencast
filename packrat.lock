@@ -25,10 +25,23 @@ Source: CRAN
 Version: 0.5.1
 Requires: stringr
 
+Package: foreign
+Source: CRAN
+Version: 0.8-56
+
+Package: fossil
+Source: CRAN
+Version: 0.3.7
+Requires: sp, maps, shapefiles
+
 Package: httr
 Source: CRAN
 Version: 0.2
 Requires: RCurl, stringr, digest
+
+Package: lattice
+Source: CRAN
+Version: 0.20-24
 
 Package: maps
 Source: CRAN
@@ -52,6 +65,16 @@ Package: RCurl
 Source: CRAN
 Version: 1.95-4.1
 Requires: bitops
+
+Package: shapefiles
+Source: CRAN
+Version: 0.7
+Requires: foreign
+
+Package: sp
+Source: CRAN
+Version: 1.0-14
+Requires: lattice
 
 Package: stringr
 Source: CRAN
