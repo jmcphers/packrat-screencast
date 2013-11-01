@@ -1,0 +1,62 @@
+PackratFormat: 1.1
+PackratVersion: 0.1.0
+RVersion: 3.0.1
+Repos: http://cran.rstudio.com
+
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+
+Package: devtools
+Source: github
+Version: 1.4
+Requires: httr, RCurl, memoise, whisker, evaluate, digest
+GithubRepo: devtools
+GithubUsername: hadley
+GithubRef: master
+GithubSha1: 6ffc849be0f9df307a97dfca93665f3e38acfc23
+
+Package: digest
+Source: CRAN
+Version: 0.6.3
+
+Package: evaluate
+Source: CRAN
+Version: 0.5.1
+Requires: stringr
+
+Package: httr
+Source: CRAN
+Version: 0.2
+Requires: RCurl, stringr, digest
+
+Package: maps
+Source: CRAN
+Version: 2.3-6
+
+Package: memoise
+Source: CRAN
+Version: 0.1
+Requires: digest
+
+Package: packrat
+Source: github
+Version: 0.1.0
+Requires: devtools, httr
+GithubRepo: packrat
+GithubUsername: rstudio
+GithubRef: master
+GithubSha1: c32ae5d012b1761adfbd49d122e9601d0b1b603b
+
+Package: RCurl
+Source: CRAN
+Version: 1.95-4.1
+Requires: bitops
+
+Package: stringr
+Source: CRAN
+Version: 0.6.2
+
+Package: whisker
+Source: CRAN
+Version: 0.3-2
